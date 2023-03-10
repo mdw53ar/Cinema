@@ -1,4 +1,11 @@
 import sqlite3
+import yfinance
+import pandas as pd
+import numpy as np
+from translate import Translator
+import seaborn as sns
+
+a = np.sqrt(5)
 
 
 def create_table():

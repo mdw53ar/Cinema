@@ -48,4 +48,5 @@ def seat_value_lookup(column, seat_id):
     return result[0][0]
 
 
+
 print(seat_value_lookup("taken", "A1"))
